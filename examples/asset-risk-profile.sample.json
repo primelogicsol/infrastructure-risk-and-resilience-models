@@ -1,0 +1,24 @@
+{
+  "asset_id": "INFRA-001",
+  "asset_name": "Central Pump Station",
+  "asset_category": "water_infrastructure",
+  "service_dependency": "regional_water_supply",
+  "risk_profile": {
+    "exposure_level": "medium",
+    "vulnerability_level": "high",
+    "consequence_level": "high",
+    "resilience_readiness": "partial"
+  },
+  "mitigation_actions": [
+    {
+      "action_id": "MIT-001",
+      "description": "Document backup power readiness and inspection schedule.",
+      "status": "planned"
+    }
+  ],
+  "review": {
+    "expert_review_required": true,
+    "decision_summary_ready": false
+  },
+  "notice": "Fictional demonstration data only."
+}
